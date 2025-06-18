@@ -135,8 +135,15 @@ def scrape_letterboxd_reviews(movie_urls: list, source_site: str = "letterboxd")
 
 if __name__ == "__main__":
     movie_urls = [
-        "https://letterboxd.com/film/interstellar/reviews/by/activity/",
-        "https://letterboxd.com/film/se7en/reviews/by/activity/",
-        "https://letterboxd.com/film/fight-club/reviews/by/activity/"
+        "https://letterboxd.com/film/the-substance/reviews/by/activity/",
+        "https://letterboxd.com/film/kill-bill-vol-1/reviews/by/activity/",
+        "https://letterboxd.com/film/deadpool-wolverine/reviews/by/activity/",
+        "https://letterboxd.com/film/arrival-2016/reviews/by/activity/",
+        "https://letterboxd.com/film/past-lives/reviews/by/activity/",
+        "https://letterboxd.com/film/the-devil-wears-prada/reviews/by/activity/",
+        "https://letterboxd.com/film/moonlight-2016/reviews/by/activity/",
+        "https://letterboxd.com/film/the-social-network/reviews/by/activity/",
+        "https://letterboxd.com/film/memento/reviews/by/activity/",
+        "https://letterboxd.com/film/pride-prejudice/reviews/by/activity/"
     ]
     scrape_letterboxd_reviews(movie_urls)
